@@ -1,0 +1,432 @@
+body {
+    margin: 0; padding: 0;
+    line-height: 1.5;
+
+    background-color: #f1f1f1;
+}
+img {display: block;}
+
+* {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Oswald";
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+/* this is css for navbar */
+.navbar {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    width: 100%;
+    overflow: hidden;  
+    list-style-type: none;
+}
+.searchbox {
+    float: right;
+}
+.navbar > li {
+    display: inline-block;
+    border: none;
+    outline: none;
+}
+li a {
+    display: block;
+    padding: 8px 16px;
+    color: white;
+}
+a:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+/* this is css for header */
+.header {
+    padding: 48px 16px; 
+    text-align: center;
+}
+.header > .jane_bloglife {
+    font-weight: 400;
+    margin: 10px 0;
+    font-size:  48px;
+}
+.header > .jane_world {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.span {
+    padding: 0 8px;
+    background-color: black;
+    text-align: center; 
+    color: white
+}
+
+/* this is css for image header */
+.image_header {
+    position: relative;
+}
+
+.image_header > img {
+    display: block;
+    width: 100%;
+    margin: 0 auto; 
+    padding: 0;    
+}
+.image_content {
+    position: absolute;
+    padding: 12px 24px;
+    top: 50%;
+    left: 0%;
+    transform: translate(-0%, -50%);
+}
+.fline {
+    font-size: 36px;
+    letter-spacing: 4px;
+    color: white
+}
+.sline {
+    color: white;
+    font-size: 64px;
+    letter-spacing: 4px;
+}
+.button {
+    font: inherit; 
+    color: black; 
+    padding: 12px 24px;
+    font-size: 18px;
+    opacity: 0.6;
+    text-align: center;
+    border: none; outline: none;
+}
+.button:hover {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* grid css */
+.grid_content {
+    padding: 8px 16px;
+}
+.left_col, .right_col {
+    display: block;
+    float: left;
+}
+.left_col {
+    width: 66.66%;
+}
+.right_col {
+    width: 33.33%;
+}
+/* first article */
+.article {
+    color: black;
+    background-color: #fff;
+    padding: 12px 24px;
+    margin: 16px
+}
+.desc {
+    margin: 15px 0;
+    font-family: Verdana, sans-serif;
+    text-align: justify;
+}
+.left_but {
+    border: 1px solid #ccc;
+    background-color: white;
+    color: black;
+    padding: 8px 16px;
+    font-size: 15px;
+    float: left;
+}
+.left_but:hover {
+    background-color: #f1f1f1;
+}
+.right_but {
+    float: right;
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+.right_but:hover {
+    background-color: #ccc;
+    color:black
+}
+
+.like_replies {
+    margin: 15px 0
+}
+.like_replies::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.article_cmt {
+    margin: 0
+    
+}
+.article_cmt::after {
+    content: "";
+    display: block;
+    clear: both; 
+}
+.user, .cmt {
+    float: left;
+}
+.user {
+    width: 16.66%;
+}
+.cmt {
+    width: 83.33%;
+}
+
+/* footer css */
+.page_content::after {
+    content: "";
+    display: block;
+    clear: both; 
+}
+.foot {
+    padding: 32px;
+    background-color: #616161;
+    color: white;
+}
+.foot > .to_the_top {
+    display: inline-block;
+    padding: 12px 24px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    margin-bottom: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.foot > .to_the_top:hover {
+    background-color:lightgrey;
+    color: black
+}
+.website {
+    color: white;
+}
+.cmt1, .cmt2, .cmt3 {
+    margin-bottom: 16px;
+}
+
+/* css for introduction */
+.intro {
+    margin: 16px;
+    background-color: black;
+    overflow: hidden;
+}
+.intro_content {
+    color: white;
+    background-color: black;
+    padding: 0.15px 16px;
+}
+
+/* css for Inspiration */
+.inspiration {
+    margin: 16px;
+}
+.images {
+    padding: 0 8px;
+    background-color: white;
+}
+.left {
+    float: left;
+    width: 50%;
+    padding: 0 8px;    
+}
+.left > p {
+    display: block;
+    margin: 16px 0;
+}
+.images::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+/* css for Follow Me */
+.follow {
+    margin: 16px;
+}
+.media {
+    background-color: white;
+    padding: 8px;
+}
+.media::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.media > a {
+    font-size: 25px;
+    color: black;
+    padding: 0 2px;
+}
+
+/* css for Advertise */
+.advertise {
+    margin: 16px;
+}
+.ad {
+    padding: 0 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    background-color: white;
+}
+.ad::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.box {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: #f1f1f1;
+    margin: 16px 0;
+    
+}
+.box > span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 200;
+}
+
+/* css for Tags  */
+.tags {
+    margin: 16px;
+}
+.tags_content {
+    background-color: white;
+    padding: 0 16px;
+    overflow: hidden;
+    height: auto;
+}
+.tags_content::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.spec, .special {
+    display: inline-block;
+    margin-bottom: 16px;
+    color: black;
+    background-color: #f1f1f1;
+    font-size: 12px;
+    padding: 0 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.special {
+    color: white;
+    background-color: black;
+    font-size: 15px;
+}
+
+/* css for Posts */
+.posts {
+    margin: 16px
+}
+.list {
+    background-color: white;
+    overflow: hidden;
+    margin: 0; padding: 0;
+    list-style-type: none;
+    display: block;
+}
+.list > li {
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+}
+.img_left, .img_cont {
+    float: left;
+}
+.img_left > img {
+    margin-right: 16px;
+}
+.list_name {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.list_cmt {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* css for Subcribe */
+.sub {
+    margin: 16px
+}
+.sub_cont {
+    background-color: white;
+    padding: 0 16px;
+    overflow: hidden;
+}
+input[type="email"] {
+    width: 100%;
+}
+.hit {
+    width: 100%;
+}
+input[type="email"] {
+    padding: 8px;
+}
+.hit {
+    border: none;
+    background-color: #f44336;
+    padding: 8px 16px;
+    color: white;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+.hit:hover {
+    background-color: #f1f1f1 ;
+    color: black;
+}
+
+/* css for Subcribe Modal */
+.appear {
+    position: fixed; 
+    display: none;
+    top: 0; left: 0;
+    z-index: 3;
+    transition: 2s;
+    padding-top: 100px;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+.sub_box {
+    margin: 0 312px;
+    padding: 32px;
+    color: black;
+    background-color: white;
+}
+.sub_content {
+    padding: 0 16px
+}
+.fas {
+    display: block;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+.fas:hover {
+    background-color: #f1f1f1;
+}
