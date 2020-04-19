@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style2.css">
+        <script src="https://kit.fontawesome.com/bee75fca36.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!-- this is navbar -->
+        <ul class="navbar" id="nav">
+            <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></i></a></li>
+            <li><a href="https://www.snapchat.com/" target="_blank"><i class="fab fa-snapchat"></i></a></li>
+            <li><a href="https://www.flickr.com/" target="_blank"><i class="fab fa-flickr"></i></a></li>
+            <li><a href="https://twitter.com/?lang=vi" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li class="searchbox"><a href="https://www.google.com.vn/" target="_blank"><i class="fab fa-searchengin"></i></a></li>
+        </ul>
+
+        <!-- this is page content -->
+    <div class="page_content" style="max-width: 100%; margin: 0 auto">
+        <!-- this is header -->
+        <header class="header" style="background-color: white;">
+            <h1 class="jane_bloglife"><b>JANE BLOGLIFE</b></h1>
+            <h6 class="jane_world">Welcome to the blog of <span class="span">Jane's world</span></h6>
+        </header>
+
+        <!-- this is image header -->
+        <header class="image_header">
+            <img src="https://www.w3schools.com/w3images/jane.jpg">
+            <div class="image_content">
+                <h1 class="fline">Jane's</h1>
+                <h1 class="sline"><b>FASHION BLOG</b></h1>
+                <h6><button class="button" onclick="document.getElementById('subcribe').style.display='block'">SUBSCRIBE</button></h6>
+            </div>
+        </header>
+        <!-- grid -->
+        <div class="grid_content">
+        <!-- left side of the page content -->
+            <div class="left_col">
+                <!-- first article -->
+                <div class="article"> 
+                    <div class="article_title">
+                        <h3 style="text-align: center;font-size: 24px;">TITLE HEADING</h3>
+                        <h5 style="text-align: center;font-size: 18px;">Title description, <span style="opacity: 0.6;">May 2, 2016</span></h5>
+                    </div>
+                    <div class="article_image">
+                        <img src="https://www.w3schools.com/w3images/girl_hat.jpg" style="display: block; margin: 0 auto; width: 100%; padding: 16px 0;">
+                        <p class="desc"><strong>More Hats! </strong>I am crazy about hats these days. Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                        <p class="desc">Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                        <div class="like_replies">
+                        
+                            <button class="left_but">
+                                <b><i class="fas fa-thumbs-up"> Like</i></b>
+                            </button>
+                        
+                        
+                            <button class="right_but" onclick="document.getElementById('hidden').style.display = 'block'">
+                                <b>Replies <span style="border: none; padding:4px 8px; background-color: white; color: black; font-family: inherit; margin-left: 5px;">1</span></b>
+                            </button>
+                        
+                        </div>
+                        <div class="article_cmt" id="hidden" style="display: none;">
+                            <hr style="margin: 20px 0; border: none; border-top: 1px solid #f1f1f1;">
+                            <div class="user">
+                                <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" width="90px">
+                            </div>
+                            <div class="cmt">
+                                <h4 style="font-size: 20px;">Geogre <span style="opacity: 0.6; font-size: 15px;">May 3, 2015, 6:32PM</span></h4>
+                                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Great blog post! Keep going</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- second article -->
+                <div class="article">
+                    <div class="article_title">
+                        <h3 style="text-align: center;font-size: 24px;">TITLE HEADING</h3>
+                        <h5 style="text-align: center;font-size: 18px;">Title description, <span style="opacity: 0.6;">April 7, 2016</span></h5>
+                    </div>
+                    <div class="article_image">
+                        <img src="https://www.w3schools.com/w3images/runway.jpg" style="display: block; margin: 0 auto; width: 100%; padding: 16px 0;">
+                        <p class="desc"><strong>Dont miss! </strong>The runway in New York City this weekend is gonna be legendary!</p>
+                        <p class="desc">Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                        <div class="like_replies">                        
+                            <button class="left_but">
+                                <b><i class="fas fa-thumbs-up"> Like</i></b>
+                            </button>                                          
+                            <button class="right_but" onclick="document.getElementById('hidden2').style.display = 'block'">
+                                <b>Replies <span style="border: none; padding:4px 8px; background-color: white; color: black; font-family: inherit; margin-left: 5px;">2</span></b>
+                            </button>                        
+                        </div>
+                    </div>
+                    <div class="article_cmt" id="hidden2" style="display: none;">
+                        
+                        <div class="cmt1" style="overflow: hidden;">
+                            <hr style="margin: 20px 0; border: none; border-top: 1px solid #f1f1f1;">
+                            <div class="user">
+                                <img src="https://www.w3schools.com/w3images/girl_train.jpg" width="90px">
+                            </div>
+                            <div class="cmt">
+                                <h4 style="font-size: 20px;">Amber <span style="opacity: 0.6; font-size: 15px;">April 26, 2015, 10:32PM</span></h4>
+                                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Love your blog page! Simply the best! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                        <div class="cmt2" style="overflow: hidden;">
+                            <div class="user">
+                                <img src="https://www.w3schools.com/w3images/girl.jpg" width="90px">
+                            </div>
+                            <div class="cmt">
+                                <h4 style="font-size: 20px;">Angie <span style="opacity: 0.6; font-size: 15px;">May 5, 2015, 8:32PM</span></h4>
+                                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Love hats!!</p>
+                            </div>
+                        </div>
+                    </div>   
+                    
+                </div>
+
+                <!-- third article -->
+                <div class="article">
+                    <div class="article_title">
+                        <h3 style="text-align: center;font-size: 24px;">TITLE HEADING</h3>
+                        <h5 style="text-align: center;font-size: 18px;">Title description, <span style="opacity: 0.6;">April 23, 2016</span></h5>
+                    </div>
+                    <div class="article_image">
+                        <img src="https://www.w3schools.com/w3images/man_hat.jpg" style="display: block; margin: 0 auto; width: 100%; padding: 16px 0;">
+                        <p class="desc"><strong>Hats! </strong>The trend this summer is hats for men!</p>
+                        <p class="desc">Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                        <div class="like_replies">
+                            <button class="left_but">
+                                <b><i class="fas fa-thumbs-up"> Like</i></b>
+                            </button>
+                            <button class="right_but" onclick="document.getElementById('hidden3').style.display = 'block'">
+                                <b>Replies <span style="border: none; padding:4px 8px; background-color: white; color: black; font-family: inherit; margin-left: 5px;">3</span></b>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="article_imt" id="hidden3" style="display: none;">
+                        <hr style="margin: 20px 0; border: none; border-top: 1px solid #f1f1f1;">
+                        <div class="cmt1" style="overflow: hidden;">
+                            <div class="user">
+                                <img src="https://www.w3schools.com/w3images/girl_mountain.jpg" width="90px">
+                            </div>
+                            <div class="cmt">
+                                <h4 style="font-size: 20px;">Jane <span style="opacity: 0.6; font-size: 15px;">April 3, 2015, 6:42PM</span></h4>
+                                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Great blog post! Keep going</p>
+                            </div>
+                        </div>
+                        <div class="cmt2" style="overflow: hidden;">
+                            <div class="user">
+                                <img src="https://www.w3schools.com/w3images/boy.jpg" width="90px">
+                            </div>
+                            <div class="cmt">
+                                <h4 style="font-size: 20px;">John <span style="opacity: 0.6; font-size: 15px;">April 8, 2015, 6:52AM</span></h4>
+                                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                            </div>
+                        </div>
+                        <div class="cmt3" style="overflow: hidden;">
+                            <div class="user">
+                                <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" width="90px">
+                            </div>
+                            <div class="cmt">
+                                <h4 style="font-size: 20px;">Anjar <span style="opacity: 0.6; font-size: 15px;">May 10, 2015, 10:32PM</span></h4>
+                                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Cant wait for the runway to start!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!-- right side of the page content -->
+            <div class="right_col">
+
+                <!-- About the blogger -->
+                <div class="intro">
+                    <img src="https://www.w3schools.com/w3images/avatar_girl2.jpg" style="width: 100%; filter: grayscale(75%);">
+                    <div class="intro_content">
+                        <h4 style="font-size: 20px;">My Name</h4>
+                        <p style="margin: 15px 0; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
+                    </div>
+                </div>
+                <hr style="visibility: hidden;">
+
+                <!-- About the Inspiration -->
+                <div class="inspiration">
+                    <div style="padding: 8px 16px; background-color: black; color: white; font-size: 20px;"><h4>Inspiration</h4></div>
+                    <div class="images">
+                        <div class="left">
+                            <p><img src="https://www.w3schools.com/w3images/jeans.jpg" width="100%"></p>
+                            <p><img src="https://www.w3schools.com/w3images/team1.jpg" width="100%"></p>
+                        </div>
+                        <div class="left">
+                            <p><img src="https://www.w3schools.com/w3images/avatar_hat.jpg" width="100%"></p>
+                            <p><img src="https://www.w3schools.com/w3images/team4.jpg" width="100%"></p>
+                        </div>
+                    </div>
+                </div>
+                <hr style="visibility: hidden;">
+
+                <!-- About the follow me -->
+                <div class="follow">
+                    <div style="padding: 8px 16px; background-color: black; color: white; font-size: 20px;"><h4>Follow Me</h4></div>
+                    <div class="media">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></i></a>
+                        <a href="https://www.snapchat.com/" target="_blank"><i class="fab fa-snapchat"></i></a>
+                        <a href="https://www.flickr.com/" target="_blank"><i class="fab fa-flickr"></i></a>
+                        <a href="https://twitter.com/?lang=vi" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <hr style="visibility: hidden;">
+
+                <!-- About the Advertise -->
+                <div class="advertise">
+                    <div style="padding: 8px 16px; background-color: black; color: white; font-size: 20px;"><h4>Advertise</h4></div>
+                    <div class="ad">
+                        <div class="box">
+                            <span>Your AD Here</span>
+                        </div>
+                    </div>
+                </div>
+                <hr style="visibility: hidden;">
+
+                <!-- About the Tags -->
+                <div class="tags">
+                    <div style="padding: 8px 16px; background-color: black; color: white; font-size: 20px;"><h4>Tags</h4></div>
+                    <div class="tags_content">
+                        <p>
+                            <span class="special">Fashion</span>
+                            <span class="spec">New York</span>
+                            <span class="spec">London</span>
+                            <span class="spec">Hats</span>
+                            <span class="spec">Norway</span>
+                            <span class="spec">Sweaters</span>
+                            <span class="spec">Ideas</span>
+                            <span class="spec">Deals</span>
+                            <span class="spec">Accessories</span>
+                            <span class="spec">News</span>
+                            <span class="spec">Clothing</span>
+                            <span class="spec">Shopping</span>
+                            <span class="spec">Jeans</span>
+                            <span class="spec">Trends</span>
+                        </p>
+                    </div>
+                </div>
+                <hr style="visibility: hidden;">
+                <!-- About the Posts -->
+                <div class="posts">
+                    <div style="padding: 8px 16px; background-color: black; color: white; font-size: 20px;"><h4>Popular Posts</h4></div>
+                    
+                    <ul class="list">
+                            <li>
+                                <div class="img_left">
+                                    <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" width="60px">
+                                </div>
+                                <div class="img_cont">
+                                    <span class="list_name">Denim</span><br>
+                                    <span class="list_cmt">Sed mattis nunc</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img_left">
+                                    <img src="https://www.w3schools.com/w3images/bandmember.jpg" width="60px">
+                                </div>
+                                <div class="img_cont">
+                                    <span class="list_name">Sweaters</span><br>
+                                    <span class="list_cmt">Praes tinci sed</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img_left">
+                                    <img src="https://www.w3schools.com/w3images/workshop.jpg" width="60px">
+                                </div>
+                                <div class="img_cont">
+                                    <span class="list_name">Workshop</span><br>
+                                    <span class="list_cmt">Ultricies congue</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img_left">
+                                    <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" width="60px">
+                                </div>
+                                <div class="img_cont">
+                                    <span class="list_name">Trends</span><br>
+                                    <span class="list_cmt">Lorem ipsum dipsum</span>
+                                </div>
+                            </li>
+                    </ul>
+                    
+                </div>
+                <hr style="visibility: hidden;">
+
+                <!-- About Subcribe -->
+                <div class="sub">
+                    <div style="padding: 8px 16px; background-color: black; color: white; font-size: 20px;"><h4>Subcribe</h4></div>
+                    <div class="sub_cont">
+                        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Enter your e-mail below and get notified on the latest blog posts.</p>
+                        <p><input type="email" placeholder="Enter e-mail"></p>
+                        <p><button class="hit" onclick="document.getElementById('subcribe').style.display='block'">Subcribe</button></p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="foot">
+            <a href="#nav" class="to_the_top"><i class="fas fa-arrow-up" style="margin-right: 20px;"></i>To the top</a>    
+            <p style="font-family:Verdana, Geneva, Tahoma, sans-serif; margin: 15px 0;">Powered by <span><a class="website" href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></span></p>
+    </footer>
+
+    <!-- Subcribe modal -->
+    <div id="subcribe" class="appear">
+        <div class="sub_box">
+            <div class="sub_content">
+                <div style="overflow: hidden;">
+                    <h2 style="letter-spacing: 4px; float: left; font-size: 30px;">SUBSCRIBE</h2>
+                    <i onclick="document.getElementById('subcribe').style.display='none'" class="fas fa-times" style="font-size: 30px; float: right"></i>
+                </div>
+                <p style="margin: 0 0 16px 0; font-family: Verdana, Geneva, Tahoma, sans-serif;">Join my mailing list to receive updates on the latest blog posts and other things.</p>
+                
+                <p><input type="email" placeholder="Enter e-mail"></p>
+                <p><button class="hit" onclick="document.getElementById('subcribe').style.display='block'">Subcribe</button></p>
+                
+            </div>
+        </div>
+    </div>
+
+    </body>
+</html>
